@@ -1,0 +1,46 @@
+<div class="background"></div>
+<div class="container">
+    <form action="/submit-your-form-handler" method="POST">
+        <label for="establecimiento">Establecimiento:</label><br>
+        <select id="establecimiento" name="establecimiento" required>
+            <option value="">Seleccione un establecimiento</option>
+            <option value="Andrés Carne de Res">Andrés Carne de Res</option>
+            <option value="El Cielo">El Cielo</option>
+            <option value="Harry Sasson">Harry Sasson</option>
+            <option value="Maido">Maido</option>
+            <option value="Central">Central</option>
+            <option value="Criterión">Criterión</option>
+            <option value="La Vitrola">La Vitrola</option>
+            <option value="Andrés DC">Andrés DC</option>
+            <option value="Mini Mal">Mini Mal</option>
+            <option value="Restaurante Local">Restaurante Local</option>
+            <option value="Hotel Estelar Windsor House">Hotel Estelar Windsor House</option>
+            <option value="Hotel Sofitel Legend Santa Clara">Hotel Sofitel Legend Santa Clara</option>
+            <option value="Hotel Las Américas Casa de Playa">Hotel Las Américas Casa de Playa</option>
+            <option value="Hotel Bantú by Faranda Boutique">Hotel Bantú by Faranda Boutique</option>
+            <option value="Hotel Estelar Santamar">Hotel Estelar Santamar</option>
+            <option value="Hotel Las Américas Torre del Mar">Hotel Las Américas Torre del Mar</option>
+            <option value="Hotel Estelar Milla de Oro">Hotel Estelar Milla de Oro</option>
+            <option value="Hotel Estelar La Torre Suites">Hotel Estelar La Torre Suites</option>
+            <option value="Hotel Estelar Alto Prado">Hotel Estelar Alto Prado</option>
+            <option value="Hotel Cartagena Plaza">Hotel Cartagena Plaza</option>
+            <option value="Hotel Barú Playa Eco Beach Resort">Hotel Barú Playa Eco Beach Resort</option>
+            <option value="Hotel Royal Decameron Barú">Hotel Royal Decameron Barú</option>
+            <option value="Hotel Decameron San Andrés">Hotel Decameron San Andrés</option>
+        </select>
+            
+        <!-- Agrega más opciones según sea necesario -->
+        <br><br>
+
+        <label for="puntuacion">Puntuación:</label><br>
+        <input type="number" id="puntuacion" name="puntuacion" min="1" max="5" placeholder="Puntuación (1-5)" required><br><br>
+
+        <label for="comentario">Comentario:</label><br>
+        <textarea id="comentario" name="comentario" rows="4" placeholder="Escribe tu comentario aquí"></textarea><br><br>
+
+        <label for="puntuacionServicio">Puntuación del servicio:</label><br>
+        <input type="number" id="puntuacionServicio" name="puntuacionServicio" min="1" max="5" placeholder="Puntuación del servicio (1-5)" required><br><br>
+        
+        <input type="submit" value="Enviar reseña">
+    </form>
+</div>

@@ -1,0 +1,51 @@
+h2 {
+    color: #333;
+  }
+  
+  h3 {
+    color: #555;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .div-con-bordes-redondos {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    height: 300px;
+    background-color: #f0f0f0;
+    border: 2px solid #ffffff;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+.contenedor-centrado {
+    
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Altura igual a la altura de la ventana */
+ /* Color de fondo opcional */
+}
+.iniciar-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;
+  }
+
+.centrado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;
+}
+  

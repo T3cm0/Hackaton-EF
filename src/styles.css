@@ -1,0 +1,9 @@
+body {
+    margin: 10px 0;
+    font-size: 24px;
+    font-family: Arial;
+    background-image: url('assets/Playa2.PNG'); /* Ruta de la imagen de fondo */
+    background-size: 2000px 1500px; /* Cambia los valores a los que necesites */
+
+    background-position: center; /* Centrar la imagen en el fondo */
+  }

@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #add8e6; /* Azul claro */
+}
+
+.container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff; /* Blanco */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px; /* Más grande */
+    color: #007bff; /* Azul */
+}
+
+.container input[type="text"],
+.container input[type="email"],
+.container input[type="password"],
+.container input[type="submit"] {
+    width: 100%;
+    padding: 12px; /* Aumentado el padding */
+    margin-bottom: 10px;
+    border: 1px solid #007bff; /* Borde azul */
+    border-radius: 20px; /* Redondeado */
+    box-sizing: border-box;
+    font-size: 16px; /* Más grande */
+}
+
+.container input[type="submit"] {
+    background-color: #007bff; /* Azul */
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+.container input[type="submit"]:hover {
+    background-color: #0056b3; /* Azul más oscuro */
+}
+
+.container p {
+    text-align: center;
+    font-size: 14px; /* Más pequeño */
+    color: #007bff; /* Azul */
+}
+
+.container p a {
+    color: #007bff; /* Azul */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.container p a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+}

@@ -1,0 +1,45 @@
+
+<div>
+  <div>
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nombre</th>
+                <th>Municipio</th>
+                <th>Departamento</th>
+                <th>Ingreso</th>
+                <th>Descripción</th>
+                <th>Habitaciones</th>
+                <th>Banos</th>
+                <th>Mascotas</th>
+                <th>Piscina</th>
+                <th>Asador</th>
+                <th>ValorNoche</th>
+            </tr>
+        </thead>
+        <tbody>
+                <td>{{propiedad.id}}</td>
+                <td>{{propiedad.nombrePropiedad}}</td>
+                <td>{{propiedad.municipio}}</td>
+                <td>{{propiedad.departamento}}</td>
+                <td>{{propiedad.tipoIngreso}}</td>
+                <td>{{propiedad.descripcion}}</td>
+                <td>{{propiedad.cantHabitaciones}}</td>
+                <td>{{propiedad.cantBanos}}</td>
+                <td>{{propiedad.permiteMascotas}}</td>
+                <td>{{propiedad.tienePiscina}}</td>
+                <td>{{propiedad.tieneAsador}}</td>
+                <td>{{propiedad.valorNoche}}</td>
+              
+        </tbody>
+    </table>
+  </div>
+
+  <td><a href="#" (click)="borrarPropiedad(propiedad.id); $event.preventDefault()">Eliminar</a></td>
+  <td><a [routerLink]="['/solicitudarrendamiento/create', propiedad.id]">Comprar</a></td>
+  <td><a [routerLink]="['/propiedad/list', propiedad.id]">Agregar fotos</a></td>
+  <td><a [routerLink]="['/propiedad/edit', propiedad.id]">Editar propiedad</a></td>                
+
+
+</div>

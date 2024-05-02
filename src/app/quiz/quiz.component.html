@@ -1,0 +1,18 @@
+<div class="contenedor-centrado">
+    <div class="div-con-bordes-redondos" *ngFor="let pregunta of preguntas; let i = index">
+      <h3>{{ pregunta.enunciado }}</h3>
+      <div *ngFor="let opcion of pregunta.opciones; let j = index">
+        <label>
+          <input type="checkbox" [checked]="opcion.seleccionada" (click)="toggleSeleccion(pregunta, j)">
+          {{ opcion.texto }}
+        </label>
+      </div>
+    </div>
+    <div class="centrado">
+        <button class="centrado" class="iniciar-btn" [routerLink]="['/arrendatario/list']">Submit</button>
+      </div>
+  </div>
+  
+ 
+  
+  

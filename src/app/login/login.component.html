@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Iniciar Sesión</h2>
+        <form>
+            <input type="text" name="username" placeholder="Usuario" required>
+            <input type="password" name="password" placeholder="Contraseña" required>
+            <a [routerLink]="['/pantalla-principal']">Iniciar Sesión</a>
+
+        </form>
+        <p>¿Desea registrarse?<a [routerLink]="['/registro']">Registrar</a>
+
+    </div>
+</body>
+</html>
